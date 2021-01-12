@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="rtl.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <!--    <link rel="stylesheet" href="dist/bundle.css">-->
+    <!--    <script src="dist/bundle.js"></script>-->
+    <title>Hello, world!</title>
+</head>
+<body class="r-web">
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+-->
+<nav class="navbar navbar-expand-lg navbar-dark dark-bg">
+    <a class="navbar-brand nav__brand" href="#">PixaWiki</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav__list navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">تصاویر <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">لایه باز</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">وکتور</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 nav__search">
+
+
+            <i class="fa fa-search" style="color: white"></i>
+            <input type="search" placeholder="جستجوی تصاویر, لایه باز و..."
+                   aria-label="Search">
+            <select>
+                <option value="1" selected><i class=" fa fa-upload pl-2"></i>تصاویر</option>
+                <option value="2"></option>
+                <option value="3"></option>
+                <option value="4"></option>
+                <option value="5"></option>
+            </select>
+        </form>
+        <div>
+            <button class="btn  btn__rounded btn__green btn__upload"><i class=" fa fa-upload pl-2"></i> بارگزاری
+            </button>
+
+        </div>
+        <a class="nav-link nav__register" href="#">ورود و ثبت نام</a>
+
+    </div>
+</nav>
+
+</body>
+</html>

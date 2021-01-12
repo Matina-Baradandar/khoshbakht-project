@@ -1,0 +1,49 @@
+.nav__list {
+    margin-right: 45px;
+}
+
+.nav__brand {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nav__register {
+    color: var(--light-font);
+}
+
+.nav__register:hover {
+    color: var(--light-font);
+}
+
+.btn__upload {
+    width: 110px;
+    height: 34px;
+    line-height: 18px;
+    margin-right: 200px;
+}
+
+.nav__search {
+    width: 650px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.nav__search input {
+    width: 85%;
+    height: 100%;
+    border: none;
+}
+
+.nav__search i {
+    width: 5%;
+    height: 100%;
+}
+
+.nav__search select {
+    width: 10%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+}

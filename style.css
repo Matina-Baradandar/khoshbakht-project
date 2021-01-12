@@ -1,0 +1,29 @@
+@import "nav.css";
+
+:root {
+    --dark: #202020;
+    --light-font: #fff;
+    --green: #02be6e;
+
+}
+
+a:hover {
+    color: white;
+}
+
+input, select, button {
+    font-size: 13px;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+}
+
+.rtl {
+    direction: rtl;
+}
+
+.dark-bg {
+    background-color: var(--dark);
+}
+
